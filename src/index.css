@@ -480,24 +480,22 @@ body .modal {
         font-size:35px;
     }
     .contenedor-presupuesto{
-        margin: 0;
-        margin-left:5px;
+        margin-left:4px;
         transform: translateY(2rem);
         width: 330px;
 
     }
-    .dos-columnas{
 
+    .dos-columnas{
         flex-direction: column;
     }
     
     main{
-        padding-top:45px;
+        padding-top:35px;
     }
 
     .filtros{
-        margin: 0;
-        margin-left: 8px;
+        margin-left:10px;
         transform: translateY(2rem);
         width: 330px;
     }
