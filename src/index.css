@@ -477,7 +477,7 @@ body .modal {
 
 @media (max-width: 500px) {
     header h1{
-        font-size:40px;
+        font-size:35px;
     }
     .contenedor-presupuesto{
         margin: 0;
