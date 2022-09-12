@@ -476,11 +476,15 @@ body .modal {
 }
 
 @media (max-width: 500px) {
+    header h1{
+        font-size:40px;
+    }
     .contenedor-presupuesto{
         margin: 0;
-        margin-left:8px;
+        margin-left:5px;
         transform: translateY(2rem);
-        width: 348px;
+        width: 330px;
+
     }
     .dos-columnas{
 
@@ -495,7 +499,10 @@ body .modal {
         margin: 0;
         margin-left: 8px;
         transform: translateY(2rem);
-        width: 348px;
+        width: 330px;
+    }
+    .campo{
+        flex-direction: column;
     }
 
     .nuevo-gasto {
@@ -510,6 +517,11 @@ body .modal {
         width: 342px;
         margin-left: 13px
     }
+
+    .listado-gastos h2{
+        width:330px;
+
+    }
     .gasto{
         justify-content:center;
     }
@@ -518,6 +530,8 @@ body .modal {
     }
     .modal .formulario.animar {
     padding: 70px;
+
+
 }
 
 @media (max-width: 750px) {
